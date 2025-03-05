@@ -2,8 +2,7 @@ name: Deploy Website
 on:
 push:
 branches:
-- master # Action will trigger when changes are pushed to the
-master branch
+- master # Action will trigger when changes are pushed to the master branch
 jobs:
 deploy:
 runs-on: ubuntu-latest # Linux-based virtual machine
